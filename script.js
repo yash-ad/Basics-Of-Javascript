@@ -24,3 +24,14 @@ let One = 10;
 let Two = 20;
 
 alert(`The expresssion is ${ One + Two }`);
+
+
+//Backticks embed the expression inside ${...} into the string
+
+let name = "Yashraj";
+
+alert(`Hello Js ${1}`);
+
+alert(`Hello Js ${name}`);
+
+alert(`Hello Js ${"name"}`);
