@@ -28,10 +28,10 @@ alert(`The expresssion is ${ One + Two }`);
 
 //Backticks embed the expression inside ${...} into the string
 
-let name = "Yashraj";
+let naav = "Yashraj";
 
 alert(`Hello Js ${1}`);
 
-alert(`Hello Js ${name}`);
+alert(`Hello Js ${naav}`);
 
-alert(`Hello Js ${"name"}`);
+alert(`Hello Js ${"naav"}`);
