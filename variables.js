@@ -21,5 +21,16 @@ var b = "8";
  var b = c;
 
 
-console.log("The value of a is :" + a );
-console.log("The value of b is :" + b );
+console.log("The value of a is : " +  a ); //The output is a = 8;
+console.log("The value of b is : " +  b );//The output is b = 3;
+
+//Naming and naming convections for javascript variables
+
+var myName = "Yash";
+var lastName = "Dandnaik";
+var my123 = 12345;
+var myvar = "Variable";
+var myname = "Yash";
+var my_name = "Yash";
+var my_name123$ = "Yash";
+//camelcase,numbers and underscore and dollar sign is valid for naming convections in javascript
