@@ -15,6 +15,16 @@ alert(`My name is ${name}`);
 //And for expression
 alert(`And the expression is ${1 + 2 }`);
 
+//String concatenation
+var message = "Hello";
+var myName  = "Yash";
+alert(message + myName + " Welcome to Javascript!");
+
+
+
+
+
+
 
 //Number Data-Type
 
