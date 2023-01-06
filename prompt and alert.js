@@ -1,5 +1,6 @@
-var tweet = prompt("Compose your tweet");
+//Tweet characters Input and output
 
-var tweetCount = tweet.length;
+var tweet$ = prompt("Compose your charcters");
+var tweetCount = tweet$.length;
 
-alert(" Your tweet character written is " + tweetCount + " & " + " The remaining characters is " + (200-tweetCount));
+alert("Your written characters is " + tweetCount + " & " + " The remaining charcters is " + (100-tweetCount));
