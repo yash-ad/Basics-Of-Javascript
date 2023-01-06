@@ -21,6 +21,17 @@ var myName  = "Yash";
 alert(message + myName + " Welcome to Javascript!");
 
 
+//String.length property
+
+var name$ = "Yashraj";
+name$.length;
+
+
+//Prompt and alert to count characters
+
+
+
+
 
 
 
