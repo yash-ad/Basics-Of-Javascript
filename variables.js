@@ -34,3 +34,6 @@ var myname = "Yash";
 var my_name = "Yash";
 var my_name123$ = "Yash";
 //camelcase,numbers and underscore and dollar sign is valid for naming convections in javascript
+
+
+//Let Keyword variables
