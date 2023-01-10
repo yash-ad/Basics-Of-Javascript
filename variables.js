@@ -98,4 +98,38 @@ console.log(d); //Varaibles declared with the VAR keyword cannot have block-scop
 
 
 
+//Declare var x = 2;
+//Redeclare var x = 3;
 
+//Redeclaring Variables :-
+
+//VAR Keyword :-
+//Redeclaring a variable using the "Var" keyword inside a block it also redeclare the variable outside the block because this is not a block scope.
+
+//Lets take an example#
+
+var lastName = "DandnaikOne";
+console.log(lastName);
+{
+
+var lastName = "Dandnaik";
+console.log(lastName)
+
+}
+var lastName = "DandnaikTwo";
+console.log(lastName);
+
+
+
+//LET Keyword :-
+//Redeclaring a varible using the "Let" keyword inside a block cannot redeclare a varaible outside the block beacuse this includes in Block-Scope.
+
+let myName = "Yashraj";
+
+{
+ let myName = "Yashraj"
+ console.log(myName);
+
+}
+let myName = "Yashraj"
+console.log(myName);
