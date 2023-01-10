@@ -36,4 +36,66 @@ var my_name123$ = "Yash";
 //camelcase,numbers and underscore and dollar sign is valid for naming convections in javascript
 
 
+//Var Keyword variables
+
+
+
+
+
+
+
+
+
 //Let Keyword variables
+
+ //1.The let keyword was introduced in ES6(2015).
+ //2.The let keyword cannot be redeclared.
+ //3.The let keyword have a blockscope.
+
+ //Before Ecmascript6(ES6) javascript had only two scopes which is Global scope and function scope.
+
+ //Lets take an example of let keyword
+
+ let a = "Yash"; // Declared let keyword with variable A with intialize the value is "Yash";
+ let a = "Yashraj";//It is going to cause an error because let cannot be Redeclared
+
+ console.log(a); //Yes it has been caused error beacuse of already declared;
+
+
+ 
+
+ //What is Block-Scope?
+ //Block-scope means that before Ecmascript6(ES6) 2015. 
+ //Javascript had only two scopes which is global scope and function scope.
+ //Javascript introduced two important keywords which is "Let" and "Const".
+ //These two keywords "Let and  const " are blockscope in javascript.
+
+
+
+ //variables declared inside a block {} cannot be accessed from outside the block.
+ //For example
+
+ 
+ {
+    let x = 3;
+    console.log(x); //Whenver  Let x = 3; and the console.log(x) the value will get beacause it is declared inside the block.
+}
+
+console.log(x);//It is going to cause an error  beacuse variable declared inside a block cannot be accessed from outside the block
+
+//However 
+//Variables declared inside a block with VAR keyword can be accessed from outside the block.
+// Variables declared with the VAR keyword cannot have blockscope beacause it was invented before block-scope ES6(2015)
+
+//For Example
+{
+
+    var d = "String";
+}
+console.log(d); //Varaibles declared with the VAR keyword cannot have block-scope and yes it can be accessed from the outside of block
+
+
+
+
+
+
