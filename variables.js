@@ -83,6 +83,10 @@ var my_name123$ = "Yash";
 
 console.log(x);//It is going to cause an error  beacuse variable declared inside a block cannot be accessed from outside the block
 
+
+
+
+//VAR Keyword :-
 //However 
 //Variables declared inside a block with VAR keyword can be accessed from outside the block.
 // Variables declared with the VAR keyword cannot have blockscope beacause it was invented before block-scope ES6(2015)
@@ -98,15 +102,11 @@ console.log(d); //Varaibles declared with the VAR keyword cannot have block-scop
 
 
 
-//Declare var x = 2;
-//Redeclare var x = 3;
+//Declare 
+var x = 2;
+//Redeclare 
+var x = 3;
 
-//Redeclaring Variables :-
-
-//VAR Keyword :-
-//Redeclaring a variable using the "Var" keyword inside a block it also redeclare the variable outside the block because this is not a block scope.
-
-//Lets take an example#
 
 var lastName = "DandnaikOne";
 console.log(lastName);
@@ -119,10 +119,77 @@ console.log(lastName)
 var lastName = "DandnaikTwo";
 console.log(lastName);
 
+//Redeclaring Variables :-
+
+
+//Redeclaring a variable using the "Var" keyword inside a block it also redeclare the variable outside the block because this is not a block scope.
+//Redeclaring a variable using "Var" is allowed anywhere in javascript.
+
+var y = "Yash";
+console.log(y);
+
+var y = "Yashraj"
+console.log(y);
+
+//Redeclaring a variable using var keyword is allowed anywhere in JS.
+
+
+
 
 
 //LET Keyword :-
-//Redeclaring a varible using the "Let" keyword inside a block cannot redeclare a varaible outside the block beacuse this includes in Block-Scope.
+
+
+//Redeclaring a varible using the "Let" keyword inside a block cannot redeclare a varaible outside the block beacuse this includes only in Block-Scope.
+//Redeclaring a variable using "Let" keyword int the same block is not allowed and in another block is allowed
+
+let d = 1; //Allowed
+let e = 2;
+
+{
+let f = 5; //Allowed
+let g = 3; //Redeclaring a variable using "Let" keyword into the same block is not allowed and in another block is allowed
+
+}
+
+{
+
+    let x = 2; //Allowed
+    var x = 2;
+}
+
+//Redeclaring a variable using "Let" keyword  in another block is allowed
+
+let v = 10;
+
+{
+
+  let v = 20;  
+}
+
+
+{
+let v = 30;
+
+}
+
+
+//Hoisting
+
+//Varaibles are defined with the var are hoisted to the top and can be intialized at any time.
+//You can use the variable before it is declared.
+
+carName = "Volvo";
+
+var carName;
+
+
+//Varaiable are defined with the let keyword are hoisted top of the block but cannot intialized
+
+carName = "Tata";
+let carName = "BMW";
+
+
 
 let myName = "Yashraj";
 
@@ -133,3 +200,8 @@ let myName = "Yashraj";
 }
 let myName = "Yashraj"
 console.log(myName);
+
+//Const Keyword
+//The const keyword was introduced in 2015
+//Variables defined with the const cannot be reassigned and redeclared as well.
+//Variables defione the const have block scope.
