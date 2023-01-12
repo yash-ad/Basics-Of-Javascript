@@ -205,3 +205,17 @@ console.log(myName);
 //The const keyword was introduced in 2015
 //Variables defined with the const cannot be reassigned and redeclared as well.
 //Variables defione the const have block scope.
+
+const aBc = 123; //Declared
+
+//const aBc = 123; (It will give an error because the variables with const cannot be reassigned and redeclared)
+
+
+
+
+
+
+
+
+
+
