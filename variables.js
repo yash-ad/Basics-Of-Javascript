@@ -211,6 +211,47 @@ const aBc = 123; //Declared
 //const aBc = 123; (It will give an error because the variables with const cannot be reassigned and redeclared)
 
 
+//Must be assigned/
+//Javascript const variables must be assigned a value when its declared
+
+const value = "Value"; //This is a correct form
+
+//const value;
+//value = "Value";  This is an incorrect form
+
+//When to use javascript  const?
+//A javascript const can be used when you know, the value cannot be changed and it will remain fixed.
+//USE const when you declare 
+//New array
+//New object
+//New function
+//New regexp
+
+//An array []
+
+const cars = [ "Volvo","Tata","Bmw"];
+//const cars = [ "Volvo","Tata","Bmw"]; //It will give an error and cannot reasssign the value but it can be changed adding an element and changing  as well
+
+
+// You can change an element
+cars[0]= "Toyota";
+
+
+// You can add an element
+cars.push = "Audi";
+
+
+
+//You cannot reassign the array
+//You can change the elemnts of the array
+
+
+//Object{}
+//You can change the properties of the object{}
+//You cannot reassign the object{}
+
+
+
 
 
 
