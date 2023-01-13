@@ -295,6 +295,13 @@ const y = 3;
 }
 
 
+//Reassigning an existing const variable in the same scope is nit allowed
+
+const a = 20; //Allowed
+a = 20;            //Not allowed
+let a = 20;       //Not allowed
+const a = 20;    //Not allowed
+
 
 
 
