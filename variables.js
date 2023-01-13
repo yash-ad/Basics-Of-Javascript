@@ -234,7 +234,7 @@ const cars = [ "Volvo","Tata","Bmw"];
 
 
 // You can change an element
-cars[0]= "Toyota";
+cars[0] = "Toyota";
 
 
 // You can add an element
@@ -249,6 +249,52 @@ cars.push = "Audi";
 //Object{}
 //You can change the properties of the object{}
 //You cannot reassign the object{}
+const car = { type:"Fiat",model:"500",price:"1,50,000"};
+
+
+//You can change a property
+
+car.color = "Red";
+
+//You can add a property
+car.owner = "Yashraj Dandnaik";
+
+
+//But you cannot re-assign the object
+const car = { type:"Fiat",model:"500",price:"1,50,000"};
+      car = { type:"volvo",model:"400",price:"2,50,000"};
+      //It will give an error
+
+
+
+      //Block-Scope
+
+      //When it comes to declaring a variable with the const is similar to the let as well beacuse both are blockscope
+
+      const x = 10;
+
+      {
+        const x = 2;
+      }
+
+      console.log(x);
+
+      //So here the value of x is 10;
+      //Because declaring a variable x is inside the block is not the same as x declared outside the block.
+
+//Redecalring a variable with const is allowed when in the another scope or in the another block
+const y = 3;
+{
+
+    const y = 4;
+}
+
+{
+
+    const y = 5;
+}
+
+
 
 
 
