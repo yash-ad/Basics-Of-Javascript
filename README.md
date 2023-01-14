@@ -1,4 +1,4 @@
 # Basics-Of-Javascript
-1.Data types
-2.Variables
+1.Variables
+2.Hoisting
 
