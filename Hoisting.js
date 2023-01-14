@@ -44,19 +44,31 @@ console.log(y);
 
 
 
-//Example :-
+//Example 1. :-
 var d = 123;
 
-console.log("The value of d is :" + d ," and f is :" + f);
+console.log("The value of d is :" + d ," and f is : " + f);
 
 var f = 567;
 
 
-// So as you can see her the value of d is 123 and f is undefined because hoisting declarations not intializations f is declared before it is used. so here the value of f is we have got an undefined.
+// So as you can see here the value of d is 123 and f is undefined because hoisting declarations not intializations f is declared before it is used. so here the value of f is we have got an undefined.
+ 
 
+//Example 2.:-
 
+var g = 55; //Intialize g
+var h;      //Declare h
+ 
+console.log(" The value of g is : " + g ," & the value of h is : " + h );
 
+var h = 66; // Assign 66 to h
+console.log(h);
 
+//So here as well the value of g is 55 and the value of h is an undefined because of hoisting declarations at the top and not intializations, so h is declared before it is used.
+
+//Hoisting is an unknown or overlooked behavior of javascript.
+//To avoid bugs(errors),always declare the variable at the beginning of every scope
 
 
 
