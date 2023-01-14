@@ -27,19 +27,20 @@ console.log(b);
  
 
 //Let keyword example:-
-lastName = "Dandnaik";
- let lastName;
+let lastName = "Dandnaiks";
+
  console.log(lastName); //It will caught an error because before it is declared.
 
 //Const keyword example:-
-myName = "Yash";
-const myName = "Yash";
+const myName = "Yashraj";
 console.log(myName);//It will caught an error beacuse must be intialized beforeits declaration
 
 //Javascript intializations are not hoisted:-
 //Javascript only hoists declarations not intializations.
 var x = 2; //Intialize X to the assigning value 2.
 var y = 3; //Intialize Y to teh assigning value 3
+console.log(x);
+console.log(y);
 
 
 
