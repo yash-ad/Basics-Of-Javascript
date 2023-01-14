@@ -44,6 +44,22 @@ console.log(y);
 
 
 
+//Example :-
+var d = 123;
+
+console.log("The value of d is :" + d ," and f is :" + f);
+
+var f = 567;
+
+
+// So as you can see her the value of d is 123 and f is undefined because hoisting declarations not intializations f is declared before it is used. so here the value of f is we have got an undefined.
+
+
+
+
+
+
+
 
 
 
