@@ -1,0 +1,127 @@
+//Javascript operators
+
+///Assignment operator:-
+//In javascript assignment operator (=) is used to assign a value to a variable.
+
+//For example.
+
+let x =  10;  // 10 assign the value to x;
+var a = "Yash";  //Yash assign the value to a;
+const z = x + y; // x + y assign the value to z;
+
+///Addition operator:-
+//The addition opearator (+) add numbers 
+
+//For example:-
+var c = 10;
+var d = 10;
+let b = c + d;  //Addition operator for adding numbers.
+console.log(b);
+
+
+//Multiply operator:-
+///The multiplication operator (*) multiply numbers.
+
+//For example:-
+let m = 10;
+let n = 20;
+
+let o = m * n;
+console.log(o);
+
+
+
+
+//Types of Javascript operators:-
+
+//There are different types of operators in javascript.
+
+//1.Arithmetic operators
+//2.Assignment operators
+//3.logical operators
+//4.Comparision operatos
+//4.conditional operators
+//5.type operators
+
+
+
+///1.Arithmetic Operators:-
+
+//Arithmetic operators are used to perform arithmetic operations.
+// + Addition
+// - Subtraction
+// * Multiplication
+// ** Exponentiation
+// / Division
+// % Modulus
+// ++ Increment
+// -- Decrement
+
+
+//For example:-
+//AN expression
+let a = 10;
+
+let g = (100+50) * a;
+console.log(a);
+
+//What is operators and operand?
+//The numbers ( in an arithmetic operation ) is called operands. 
+//The operation ( to be performed between numbers) is defined by an operator.
+
+
+//For Example:-
+
+100 + 100 // Operands  and operator
+
+//Operator precedence:-
+
+//For example:-
+
+let y = 100 + 2 * 3;  //Multiplication done first
+console.log(y);  //Here the value is 160
+//Because in tradition school mathematics  multiplication done first ,however multiplication and division have highner precedence
+//When using parentheses, the operations inside the parentheses are computed first
+
+//For example:-
+let i = (100 + 2) * 3;
+console.log(i); //Here the value is 306
+
+
+
+
+//2.Assignment Operators:-
+//In javascript the assignment operators are used to assign a values to a variables.
+//The addition  assignment operator (+=) adds a value to a variable.
+
+//For example
+let add = 10;
+add += 5;
+add = x + 5;
+console.log(add); //The value is 15;
+
+
+//Adding javascript strings
+//The + operator can be used to add(concatenate) strings.
+
+//What is concatenation in javascript?
+//In javascript when used on strings,(+) the addition operator is called concatenation operator.
+
+//Lets take an example:-
+
+let myName = "Yash";
+let lastName = " Dandnaik";
+
+let print = myName + lastName;
+console.log("Hello " + print); //Hello Yash Dandnaik printed in the console
+
+
+//The += Addition assignment operator is used to add(concatenate) strings
+//Lets take an example:-
+
+let autumn = "What a lovely day, ";
+autumn += "Feeling great";  //autumn = autumn + "Feeling great";
+console.log(autumn);  //What a lovely day, Feeling great
+    
+
+
