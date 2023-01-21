@@ -181,6 +181,28 @@ console.log(autumn);  //What a lovely day, Feeling great
 
 //Compairing different types:-
 
+//Comparing data and different types in javascript may give an unexpected results:-
+
+///When comparing a string to a number , javascript will convert the string to a number when doing the comparision.
+
+31 > "21"; //When comparing a string to a number , javascript convert the string to a number when doing the comparision.
+
+//An empty string converts to 0.
+
+//A non-numeric string converts to NaN = not a number which is always false.
+
+
+//Lets take an example below for better understanding:-
+
+2 < 12; //Which is True.
+
+2 > 12; //Which is False.
+
+2 < "12"; //Which is True , because when comparing the string to a number ,javascript converts the string to a number when doing the comparision.
+
+2 < "Yash"; //WHich is False,because when comparinf a string to a number , javascript converts the string to a number hence in this example this is not a number which is Always NaN False
+
+
 
 
 
