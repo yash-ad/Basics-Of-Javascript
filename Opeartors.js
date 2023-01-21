@@ -5,9 +5,9 @@
 
 //For example.
 
-let x =  10;  // 10 assign the value to x;
-var a = "Yash";  //Yash assign the value to a;
-const z = x + y; // x + y assign the value to z;
+let x   =  10;  // 10 assign the value to x;
+var a   = "Yash";  //Yash assign the value to a;
+const z = x + y; // x + y assign the value to z; 
 
 ///Addition operator:-
 //The addition opearator (+) add numbers 
@@ -36,12 +36,12 @@ console.log(o);
 
 //There are different types of operators in javascript.
 
-//1.Arithmetic operators
-//2.Assignment operators
-//3.logical operators
-//4.Comparision operatos
-//4.conditional operators
-//5.type operators
+//1.Arithmetic  operators
+//2.Assignment  operators
+//3.Comparision operators
+//4.Logical     operators
+//4.Conditional operators
+//5.Type        operators
 
 
 
@@ -123,5 +123,64 @@ let autumn = "What a lovely day, ";
 autumn += "Feeling great";  //autumn = autumn + "Feeling great";
 console.log(autumn);  //What a lovely day, Feeling great
     
+
+///3.Comparision operators:-
+//Javascript comparision and logical operators:-
+
+//Comparison and logical operators are used to test True or False.
+
+//What is comparision operators?
+//In javascript comparision operators are used to determine the equality or differnce between the variables or values and also comparision operators are used in conditional statements to compare values.
+
+// = = Equal to
+
+// = = = Equal value and equal type
+
+// ! = Not equal 
+
+// ! = = Not equal value and type
+
+// > Greater than
+
+// < Less than
+
+// < Greater than or equal to
+
+// > Less than or eqaul to
+
+// ? Ternary Operator
+
+
+//What are logical operators?
+//In javascript logical operators are used to determine the logic between variables or values.
+
+// && LOgical and
+
+// || Logical   or
+
+// ! Logical not
+
+//Lets take an example below :-
+ x = 5;  y = 6;  //If you assign a value to a variable that has not been declared,it will automatically become a GLOBAL variable.#
+
+ // && Logical And  
+ (x < 10 && y > 1);
+ //Now here the value of x is 5 and y is 6 and obviously the logic and  is 5 less than 10 and  6 is greater than 1 True.
+
+ // || Logical   or
+ (x == 6 || y == 7);
+ //Now here the value of x is 5 and the value of y is 6 ,obviously the logic or  an operator is 5 is equal to 6 and 6 is equal to 7 which is FALSE right.
+  
+
+// ! Logical Not
+!(x==y);
+//Now here the value of x is 5 and the value of y is 6 , and obviously by using logical not operator their values are not equal hence first they are not logic based automatically so it will become a TRUE.
+
+
+
+
+//Compairing different types:-
+
+
 
 
