@@ -152,7 +152,7 @@ console.log(autumn);  //What a lovely day, Feeling great
 
 
 //What are logical operators?
-//In javascript logical operators are used ton determine the logic between variables or values.
+//In javascript logical operators are used to determine the logic between variables or values.
 
 // && LOgical and
 
@@ -160,7 +160,27 @@ console.log(autumn);  //What a lovely day, Feeling great
 
 // ! Logical not
 
+//Lets take an example below :-
+ x = 5;  y = 6;  //If you assign a value to a variable that has not been declared,it will automatically become a GLOBAL variable.#
+
+ // && Logical And  
+ (x < 10 && y > 1);
+ //Now here the value of x is 5 and y is 6 and obviously the logic and  is 5 less than 10 and  6 is greater than 1 True.
+
+ // || Logical   or
+ (x == 6 || y == 7);
+ //Now here the value of x is 5 and the value of y is 6 ,obviously the logic or  an operator is 5 is equal to 6 and 6 is equal to 7 which is FALSE right.
+  
+
+// ! Logical Not
+!(x==y);
+//Now here the value of x is 5 and the value of y is 6 , and obviously by using logical not operator their values are not equal hence first they are not logic based automatically so it will become a TRUE.
+
+
+
 
 //Compairing different types:-
+
+
 
 
