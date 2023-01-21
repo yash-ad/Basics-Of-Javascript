@@ -151,7 +151,16 @@ console.log(autumn);  //What a lovely day, Feeling great
 // ? Ternary Operator
 
 
-///lets take an example below:-
+//What are logical operators?
+//In javascript logical operators are used ton determine the logic between variables or values.
 
+// && LOgical and
+
+// || Logical   or
+
+// ! Logical not
+
+
+//Compairing different types:-
 
 
