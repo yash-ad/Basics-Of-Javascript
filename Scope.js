@@ -114,11 +114,11 @@ const b = 11;
 
 
 
-
 function indiaTruck()
 {
 
-   truckName = "Tata";
+      truckName = "Tata";
+      console.log(truckName);
 
 }
-console.log(indiaTruck);
+indiaTruck();
