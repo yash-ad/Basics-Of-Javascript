@@ -117,8 +117,11 @@ const b = 11;
 function indiaTruck()
 {
 
-      truckName = "Tata";
+      truckName = "Tata";  //Global variable
       console.log(truckName);
 
 }
 indiaTruck();
+
+
+
