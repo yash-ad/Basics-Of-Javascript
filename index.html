@@ -88,9 +88,25 @@ always decalre javascript variables with Var,Let and Const keywords.
 
 
 <h3> Const Object and Arrays </h3>
-<p></p>
+<p>The keyword Const is a little confusing and misleading.
+  it does not define a constant value , however it defines a constant reference to a value.
+  Because of the reasons,You cannot reassign a constant value,You cannot reassign a constant array or You cannot reassign a constant object 
+  But of course you can change the elements of constant array [] and the properties of constant object {}.
 
+</p>
 
+<p>When it comes to declaring a variable with the const is similar to let both are Block-Scope
+const x = 10;
+{
+  const x = 2;
+}
+//Here the value of x is 10; Because the value of x is fixed and declared outside of the block as well.
+and the x declared inside a block is not the same as outside the block.
+</p>
+
+<p>Redeclaring a variable in javascript with the var keyword is anywhere allowed in the program.
+  Redeclaring an existing "Var" or "Let" variable to const in the same scope is not allowed
+</p>
 
 
 
