@@ -3,10 +3,21 @@
 //1.What is hoisting in javascript? //IMP in Js
 //Hoisting is javascripts by default behavior of moving decalrations at the top.
 
-//Lets take an example 1.
+//Lets take an example 1 (Value hoisting).
 a = "Yash";
 var a;
-console.log(a);
+console.log(a); //
+
+
+    season = "Summer";
+let season;
+console.log(season); //This will caught an error beacause  it cannot access before its intialization.
+
+
+
+      universe  = "Nature";
+const universe  = "Nature";
+console.log(universe); //This will caught an error beacause  it cannot access before its intialization.
 
 
 //Lets take an example 2.
