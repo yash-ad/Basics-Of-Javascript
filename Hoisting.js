@@ -6,7 +6,7 @@
 //Lets take an example 1 (Value hoisting).
 a = "Yash";
 var a;
-console.log(a); //
+console.log(a); 
 
 
     season = "Summer";
@@ -22,9 +22,9 @@ console.log(universe); //This will caught an error beacause  it cannot access be
 
 //Lets take an example 2.
 
-var b;
-b = "Dandnaik";
-console.log(b);
+var b;     //Undefined
+b = "Dandnaik"; //"Dandnaik" because if you assign a value to a variable that has not been declared, it will automatically become a global variable.
+console.log(b); //
 
 //Hoisting is javascripts by default behavior of moving all declarations at the top of the current scope.
 
