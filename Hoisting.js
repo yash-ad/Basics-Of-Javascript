@@ -1,7 +1,9 @@
 //Hoist means to raise or lift something in simple words:-
 
-//1.What is hoisting in javascript? //IMP in Js
-//Hoisting is javascripts by default behavior of moving decalrations at the top.
+/*1.What is hoisting in javascript? //IMP in Js
+Hoisting is javascripts behavior of moving decalrations of functions , variables and classes to the top of their scope, prior to executioin of the code however the concept of
+hoisting in javascript is due to the compilation start that happens before javascript programs start executing, in fact hoisting is bascially relation to  the memory management
+*/
 
 //Lets take an example 1 (Value hoisting).
 a = "Yash";
@@ -80,7 +82,6 @@ console.log(h);
 
 //Hoisting is an unknown or overlooked behavior of javascript.
 //To avoid bugs(errors),always declare the variable at the beginning of every scope
-
 
 
 
