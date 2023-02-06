@@ -57,7 +57,8 @@ console.log(v);//Not an execution in a compile step.
 var d = "Dandnaik";
 console.log(d); //Dandnaik
 
-//Scope and hoisting examples
+//Scope and hoisting example
+
 function fn(){
 console.log(d); //Undefined
 var d = 50; //Undefined in compile step
@@ -65,3 +66,53 @@ console.log(d); //50
 
 }
 fn();
+
+//1.
+var k = 20;
+function ft() {
+    console.log(k);
+    var k = 10;
+
+}
+ft(); //Undefined;
+
+//2.
+var fn = 10;
+function fn(){
+console.log(20);
+
+}
+console.log(fn); //The value of fn is 10;
+
+//3.ES6 temporal dead zone
+console.log(n); //It will caught an error that n is not defined because we cannot intialize them before declaration with let and const keyword
+let n = "Not defined";
+console.log(n);
+
+//What is the temporal dead-zone?
+//It is a behavior of javascript,whenever we access the let or const before declaration the "Reference-Error" will be in the output,However with the var, you will get undefined in an output.
+
+//Lets take an example for conclusion:-
+
+//1.
+function test(){
+console.log(counter_1); //Undefined
+console.log(counter_2); //Refernece error
+
+var counter_1 = "Yash";
+let counter_2 = "Dandnaik";
+
+}
+test();
+
+
+//2.
+console.log(x);
+let x = 100;
+
+console.log(y);
+const y = 200;
+
+
+console.log(z);
+var z = 300;
