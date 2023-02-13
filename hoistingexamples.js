@@ -116,3 +116,10 @@ const y = 200;
 
 console.log(z);
 var z = 300;
+
+//3.
+let truckName = "Tata";
+console.log(truckName); //Tata
+console.log(carName); //Reference error Uncaught ReferenceError: carName is not defined
+let carName = "Bmw";
+
