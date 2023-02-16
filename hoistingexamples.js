@@ -123,3 +123,8 @@ console.log(truckName); //Tata
 console.log(carName); //Reference error Uncaught ReferenceError: carName is not defined
 let carName = "Bmw";
 
+
+//4.
+console.log(m);
+let m = "Monkey";
+console.log(m);  //Uncaught referenceerror "m" is not defined.because of let or const varaible they are hoisted cannot access before intialization
