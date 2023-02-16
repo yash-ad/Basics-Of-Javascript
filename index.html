@@ -9,154 +9,168 @@
     
   </head>
   <body>
-    <h1>Variables</h1>
+    <div class="variables">
+      <h1>Variables</h1>
     
-    <h3>What are variables in javascript?</h3>
-    <p>In a programming language ,variables are used to store data values ,Javascript uses the keywords which are Var,Let and Const to declare variables.
-      For Example:- 1.Var name = "Yash"; , 2.Let naav = "Yash"; and 3.Const naam = "Yash";
-    </p>
-     <p>Javascript is a case-sensitive language,All javascript identifiers are case sensitive.
-      For example:- 1.var myName = "Yash";
-                    2.let myname = "Yash";
-                    The variables "myName" and "myname" are both different values.
-    
-      Javascript programmers tend to use camelCase that starts with a lowerCase character Eg:-firstName,lastName,masterCard
-     </p>
-    
-    
-    
-    
-    <p>Javascript defines two types of values which is 1.Fixed values and 2.Variables values
-      Fixed values are called literals and variable valiues are called variables.
-    </p>
+      <h3>What are variables in javascript?</h3>
+      <p>In a programming language ,variables are used to store data values ,Javascript uses the keywords which are Var,Let and Const to declare variables.
+        For Example:- 1.Var name = "Yash"; , 2.Let naav = "Yash"; and 3.Const naam = "Yash";
+      </p>
+       <p>Javascript is a case-sensitive language,All javascript identifiers are case sensitive.
+        For example:- 1.var myName = "Yash";
+                      2.let myname = "Yash";
+                      The variables "myName" and "myname" are both different values.
+      
+        Javascript programmers tend to use camelCase that starts with a lowerCase character Eg:-firstName,lastName,masterCard
+       </p>
+      
+      
+      
+      
+      <p>Javascript defines two types of values which is 1.Fixed values and 2.Variables values
+        Fixed values are called literals and variable valiues are called variables.
+      </p>
+  
+  
+      <P>What are variables? Varaibles are just containers for storing data values
+  always decalre javascript variables with Var,Let and Const keywords.
+  
+      </P>
+  
+      <h2>Decalring a javascript Variable</h2>
+      <p>creating a variable in javascript is called a declaring a variable.
+        Declare a variable with var or the let keyword.
+      *After the declaration the variable has no value (Technically its undefined)
+      </p>
+  
+      
+      <h2>What is Undefined In Javascript</h2>
+      <p>Undefined in javascript is, A variable declared without a value and before execution its undefined,The value will be undefined.</p>
+      
+      <h2>What is Not-defined In Javascript</h2>
+      <p>Not-defined in javascript is the value has nit stored in a memory since it not-defined</p>
+  
+  
+  
+      
+      <p>You cannot redeclare a variable with Let and Const keywords
+        If you put a numbers in quotes "",the rest of the numbers will be treated as strings and concatenated.
+        Since javascript treats a dollar sign as a letter,Identifiers containing are valid names and Underscore_ as well.
+      </p>
+  
+  
+  <h1>Lets dive deep into Javascript keywords</h1>
+  <p>The let keyword was intorduced in ES6(2015),the let keyword cannot be redeclared,the let keyowrd have {Block-Scope}
+    For example :- Let myName = "Yash";
+    <p>Redeclaring a variable using <emp>let</emp> keyword inside a {Block} cannot be redeclared a variable outside the block
+      Variables are defined with the let keyword are hoisted to the top however it cannot be intialized.
+       Using a let keyword before its declared will result in a  referneceerror.
+       Redecalring a variable using let keyword in the same block is not allowed and in the  another block is allowed
+      </p>
+  <p>Redeclaring a variable using <emp>Var</emp> keyword inside a {Block} will also redeclare the variable outside the block.
+    Redeclaring a variable using var is allowed anywhere in the program
+  </p>
+  
+  
+  <h1> Javascript Const </h1>
+  <p>The const keyword was intorduced in ES6(2015),
+    Variables are defined with the const cannot be redeclared and it cannot be reassigned.
+    variables define with the const have block scope, Javascript const variables must be assigned a value when they are declared.
+  </p>
+  
+  
+  <h3> When to use Javascript-Const </h3>
+  <p>A javascript const can be used when you know the value cannot be changed that means it will remain fixed.
+    For Example:- Const Nature = "Fixed Universe";
+  
+    Use const when you declare 
+    A new array , A new object , A new function , A new Regexp
+  </p>
+  
+  
+  <h3> Const Object and Arrays </h3>
+  <p>The keyword Const is a little confusing and misleading.
+    it does not define a constant value , however it defines a constant reference to a value.
+    Because of the reasons,You cannot reassign a constant value,You cannot reassign a constant array or You cannot reassign a constant object 
+    But of course you can change the elements of constant array [] and the properties of constant object {}.
+  
+  </p>
+  
+  <p>When it comes to declaring a variable with the const is similar to let both are Block-Scope
+  const x = 10;
+  {
+    const x = 2;
+  }
+  //Here the value of x is 10; Because the value of x is fixed and declared outside of the block as well.
+  and the x declared inside a block is not the same as outside the block.
+  </p>
+  
+  <p>Redeclaring a variable in javascript with the var keyword is anywhere allowed in the program.
+    Redeclaring an existing "Var" or "Let" variable to const in the same scope is not allowed
+  </p>
+  
+  <h3>Javascript Keywords</h3>
+  <p>Var,Let,Const,if,switch,for,function,return,try and javascript statements are often start with a keyword to identify the javascript action to be performed.</p>
+  
+  
+  <h1>Javascript programs</h1>
+  <p>
+    A computer program is a list of instructions to be executed by a computer
+    and Javascript program is a list of programming statements.
+  </p>
+  
+  <br>
+  
+  <h2> What is a Javascript statements </h2>
+  <p>In a programming language the list of instructions are called statements.</p>
+  <p>Javascript statements are composed of Values,Operators,Expression,Keywords and Comments.</p>
+  <p>Javascript programs contain many javascript statements and these statements are executed one by one , in the same order as they are written.
+    Javascript programs(and javascript statements) are often called javascript code.
+  </p>
+  
+  <h3>Javascript expresssions</h3>
+  <p>An expression is a combination of values,variables and operators , which computes to a value.</p>
+  for Example:-
+  5 + 10 = 15;
+  
+  The computation is called an evaluation.
+  
+  
+  <h1>Hoisting In Javascript:-</h1>
+  <strong>What is hoisting in javascript?</strong>
+  <p>Hoisting in javascript is behaviour to moving declarations of functions,variables and classes to top of their scope ,prior to execution of the code.however the concept of hoisting in javascript is due to the compilaton process start that happens before javascript program starts executing
+    infact what happens instead the variable and functions declaration are put unto memory during the compile phase and hoisting is relation to the memory management.
+  
+  </p>
+  <h1>What is Temporal dead zone?</h1>
+  <p>First it is a behaviour of javascript, whenever we access the let or const variable before the declaration "The reference error" will be in the output however with Var , you will get "Undefined" in the output.
+  
+  <ul>
+    <li>Type of TDZ for let or const : ReferneceError 
+  
+    </li>
+    <li>Type of TDZ for Var : Undefined 
+  
+    </li>
+  
+  
+  </ul>
+  
+  
+  </p>
+  
+    </div>
 
 
-    <P>What are variables? Varaibles are just containers for storing data values
-always decalre javascript variables with Var,Let and Const keywords.
+    <div class="Datatypes">
 
-    </P>
-
-    <h2>Decalring a javascript Variable</h2>
-    <p>creating a variable in javascript is called a declaring a variable.
-      Declare a variable with var or the let keyword.
-    *After the declaration the variable has no value (Technically its undefined)
-    </p>
-
-    
-    <h2>What is Undefined In Javascript</h2>
-    <p>Undefined in javascript is, A variable declared without a value and before execution its undefined,The value will be undefined.</p>
-    
-    <h2>What is Not-defined In Javascript</h2>
-    <p>Not-defined in javascript is the value has nit stored in a memory since it not-defined</p>
+      
+    </div>
 
 
 
-    
-    <p>You cannot redeclare a variable with Let and Const keywords
-      If you put a numbers in quotes "",the rest of the numbers will be treated as strings and concatenated.
-      Since javascript treats a dollar sign as a letter,Identifiers containing are valid names and Underscore_ as well.
-    </p>
 
 
-<h1>Lets dive deep into Javascript keywords</h1>
-<p>The let keyword was intorduced in ES6(2015),the let keyword cannot be redeclared,the let keyowrd have {Block-Scope}
-  For example :- Let myName = "Yash";
-  <p>Redeclaring a variable using <emp>let</emp> keyword inside a {Block} cannot be redeclared a variable outside the block
-    Variables are defined with the let keyword are hoisted to the top however it cannot be intialized.
-     Using a let keyword before its declared will result in a  referneceerror.
-     Redecalring a variable using let keyword in the same block is not allowed and in the  another block is allowed
-    </p>
-<p>Redeclaring a variable using <emp>Var</emp> keyword inside a {Block} will also redeclare the variable outside the block.
-  Redeclaring a variable using var is allowed anywhere in the program
-</p>
-
-
-<h1> Javascript Const </h1>
-<p>The const keyword was intorduced in ES6(2015),
-  Variables are defined with the const cannot be redeclared and it cannot be reassigned.
-  variables define with the const have block scope, Javascript const variables must be assigned a value when they are declared.
-</p>
-
-
-<h3> When to use Javascript-Const </h3>
-<p>A javascript const can be used when you know the value cannot be changed that means it will remain fixed.
-  For Example:- Const Nature = "Fixed Universe";
-
-  Use const when you declare 
-  A new array , A new object , A new function , A new Regexp
-</p>
-
-
-<h3> Const Object and Arrays </h3>
-<p>The keyword Const is a little confusing and misleading.
-  it does not define a constant value , however it defines a constant reference to a value.
-  Because of the reasons,You cannot reassign a constant value,You cannot reassign a constant array or You cannot reassign a constant object 
-  But of course you can change the elements of constant array [] and the properties of constant object {}.
-
-</p>
-
-<p>When it comes to declaring a variable with the const is similar to let both are Block-Scope
-const x = 10;
-{
-  const x = 2;
-}
-//Here the value of x is 10; Because the value of x is fixed and declared outside of the block as well.
-and the x declared inside a block is not the same as outside the block.
-</p>
-
-<p>Redeclaring a variable in javascript with the var keyword is anywhere allowed in the program.
-  Redeclaring an existing "Var" or "Let" variable to const in the same scope is not allowed
-</p>
-
-<h3>Javascript Keywords</h3>
-<p>Var,Let,Const,if,switch,for,function,return,try and javascript statements are often start with a keyword to identify the javascript action to be performed.</p>
-
-
-<h1>Javascript programs</h1>
-<p>
-  A computer program is a list of instructions to be executed by a computer
-  and Javascript program is a list of programming statements.
-</p>
-
-<br>
-
-<h2> What is a Javascript statements </h2>
-<p>In a programming language the list of instructions are called statements.</p>
-<p>Javascript statements are composed of Values,Operators,Expression,Keywords and Comments.</p>
-<p>Javascript programs contain many javascript statements and these statements are executed one by one , in the same order as they are written.
-  Javascript programs(and javascript statements) are often called javascript code.
-</p>
-
-<h3>Javascript expresssions</h3>
-<p>An expression is a combination of values,variables and operators , which computes to a value.</p>
-for Example:-
-5 + 10 = 15;
-
-The computation is called an evaluation.
-
-
-<h1>Hoisting In Javascript:-</h1>
-<strong>What is hoisting in javascript?</strong>
-<p>Hoisting in javascript is behaviour to moving declarations of functions,variables and classes to top of their scope ,prior to execution of the code.however the concept of hoisting in javascript is due to the compilaton process start that happens before javascript program starts executing
-  infact what happens instead the variable and functions declaration are put unto memory during the compile phase and hoisting is relation to the memory management.
-
-</p>
-<h1>What is Temporal dead zone?</h1>
-<p>First it is a behaviour of javascript, whenever we access the let or const variable before the declaration "The reference error" will be in the output however with Var , you will get "Undefined" in the output.
-
-<ul>
-  <li>Type of TDZ for let or const : ReferneceError 
-
-  </li>
-  <li>Type of TDZ for Var : Undefined 
-
-  </li>
-
-
-</ul>
-
-
-</p>
 
 
 
