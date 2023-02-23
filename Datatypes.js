@@ -21,3 +21,28 @@ console.log("The value of BigInt is", bigInt ,"Which is a bunch of numbers.");
 
 let symbol = "Id"; //Symbol Data-type
 console.log("The value of a symbol is",symbol," , Which is an unique identifier.");
+
+//Javascript types are dynamic which means that same variable can be used to hold different datatypes.
+let x = 123;
+x = 456;
+x = "Yash";
+x = false;
+x = true;
+
+//Note: When adding a number and a string ,Javascript will treat the number as a string.
+
+let zodiacSign = 31 + "Aries";
+console.log(zodiacSign);
+
+
+let villa = "Deep" + 21;
+console.log(villa);
+
+//Javascript evaluates the expression from left to right:-
+
+let solve = 10 + 10 + "Twenty";
+console.log(solve);
+
+let solveEx = "NumberTostring" + 30 + 10;
+console.log(solveEx);
+
