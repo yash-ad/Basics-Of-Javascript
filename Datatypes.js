@@ -46,3 +46,11 @@ console.log(solve);
 let solveEx = "NumberTostring" + 30 + 10;
 console.log(solveEx);
 
+//Javascript[Arrays]
+const bikes = ["Honda","Suzuki","Bmw","Tvs"];
+console.log(bikes);
+
+//Javascript {Objects}
+const HarrierCar = {Color:"Black",Price:2500000,Year:"2022",Model:"Hybrid"};
+console.log(HarrierCar);
+
