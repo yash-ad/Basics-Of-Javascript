@@ -72,12 +72,56 @@ console.log(my_Name);  // Code here cannot be used because its a local scope var
 //variables declared inside a function with var,let and const keyword they all have function scope.
 
 //For Example:-
+function myFunction()
+{
+
+   var myName = "Yash";
+}
+
+
+function myFunction()
+{
+
+   let myName = "Yash";
+}
+
+
+
+function myFunction()
+{
+
+   const myName = "Yash";
+}
 
 
 
 
+///3.Global scope
+ //In javascript variables are declared outside a function it becomes globally and have a global scope
+
+ //Global Variables can be accessed from anywhere in the program.
+
+ //Varaiables declared with Var, Let and Const are quite similar when declared outside a block.
+
+ // In javascript assignning a value to a variable that has not been declared,it will automatically become a GLOBAL variable.
 
 
+ //Given Examples:-
+var b = 11;
+let b = 11;
+const b = 11;
+
+
+
+
+function indiaTruck()
+{
+
+      truckName = "Tata";  //Global variable
+      console.log(truckName);
+
+}
+indiaTruck();
 
 
 
