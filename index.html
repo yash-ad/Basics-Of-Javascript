@@ -221,6 +221,138 @@
 
   </ul>
 </p>
+<div class="Table-Type-Conversion">
+  <table>
+    <tbody>
+     <tr>
+      <th>Original Value</th>
+      <th>Converted to Number</th>
+      <th>Converted to String</th>
+      <th>Converted to Boolean</th>
+     </tr>
+     <tr>
+      <td>false</td>
+      <td>0</td>
+      <td>"false"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>True</td>
+      <td>1</td>
+      <td>"True"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>"0"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>1</td>
+     <td>1</td>
+     <td>"1"</td>
+     <td>True</td>
+    </tr>
+     <tr>
+      <td>"0"</td>
+      <td>0</td>
+      <td>"0"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"000"</td>
+      <td>0</td>
+      <td>"000"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"1"</td>
+      <td>1</td>
+      <td>"1"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>"NaN"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>Infinity</td>
+      <td>Infinity</td>
+      <td>"Infinity"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>""</td>
+      <td>0</td>
+      <td>""</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>"20"</td>
+      <td>20</td>
+      <td>"20"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"twenty"</td>
+      <td>NaN</td>
+      <td>"twenty"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[]</td>
+      <td>0</td>
+      <td>""</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[20]</td>
+      <td>20</td>
+      <td>"20"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[20,30]</td>
+      <td>NaN</td>
+      <td>"20,30"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>["twenty"</td>
+      <td>NaN</td>
+      <td>"twenty"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>function(){}</td>
+      <td>NaN</td>
+      <td>"function(){}"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>null</td>
+     <td>0</td>
+     <td>"null"</td>
+     <td>false</td>
+    </tr>
+     <tr>
+      <td>undefined</td>
+      <td>NaN</td>
+      <td>"undefined"</td>
+      <td>false</td>
+     </tr>
+     
+         </tbody>
+       </table>
+     </div>
+
+
+
+
+
 
 
 
