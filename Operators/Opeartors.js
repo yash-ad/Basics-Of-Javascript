@@ -13,7 +13,7 @@ const z = x + y; // x + y assign the value to z;
 const firstNumber = 5;
 const secondNumber = 5;
 const result = firstNumber + secondNumber;
-console.log(result);
+console.log(result); //10
 
 
 
@@ -108,29 +108,16 @@ add += 5;
 add = x + 5;
 console.log(add); //The value is 15;
 
+let minus = 10;
+minus -= 5;
+minus = x - 5;
+console.log(minus); //The value is 5;
 
-//Adding javascript strings
-//The + operator can be used to add(concatenate) strings.
+let multiply = 10;
+multiply *= 5;
+multiply = multiply * 5;
+console.log(multiply);
 
-//What is concatenation in javascript?
-//In javascript when used on strings,(+) the addition operator is called concatenation operator.
-
-//Lets take an example:-
-
-let myName = "Yash";
-let lastName = " Dandnaik";
-
-let print = myName + lastName;
-console.log("Hello " + print); //Hello Yash Dandnaik printed in the console
-
-
-//The += Addition assignment operator is used to add(concatenate) strings
-//Lets take an example:-
-
-let autumn = "What a lovely day, ";
-autumn += "Feeling great";  //autumn = autumn + "Feeling great";
-console.log(autumn);  //What a lovely day, Feeling great
-    
 
 ///3.Comparision operators:-
 //Javascript comparision and logical operators:-
@@ -158,6 +145,36 @@ console.log(autumn);  //What a lovely day, Feeling great
 
 // ? Ternary Operator
 
+
+
+
+
+
+
+
+
+//Adding javascript strings
+//The + operator can be used to add(concatenate) strings.
+
+//What is concatenation in javascript?
+//In javascript when used on strings,(+) the addition operator is called concatenation operator.
+
+//Lets take an example:-
+
+let myName = "Yash";
+let lastName = " Dandnaik";
+
+let print = myName + lastName;
+console.log("Hello " + print); //Hello Yash Dandnaik printed in the console
+
+
+//The += Addition assignment operator is used to add(concatenate) strings
+//Lets take an example:-
+
+let autumn = "What a lovely day, ";
+autumn += "Feeling great";  //autumn = autumn + "Feeling great";
+console.log(autumn);  //What a lovely day, Feeling great
+    
 
 //What are logical operators?
 //In javascript logical operators are used to determine the logic between variables or values.
@@ -208,7 +225,7 @@ console.log(autumn);  //What a lovely day, Feeling great
 
 2 < "12"; //Which is True , because when comparing the string to a number ,javascript converts the string to a number when doing the comparision.
 
-2 < "Yash"; //WHich is False,because when comparinf a string to a number , javascript converts the string to a number hence in this example this is not a number which is Always NaN False
+2 < "Yash"; //WHich is False,because when comparing a string to a number , javascript converts the string to a number hence in this example this is not a number which is Always NaN False
 
 
 
