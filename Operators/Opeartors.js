@@ -120,9 +120,9 @@ console.log(multiply);
 
 
 ///3.Comparision operators:-
-//Javascript comparision and logical operators:-
+//Javascript comparision operators:-
 
-//Comparison and logical operators are used to test True or False.
+//Comparison operators are used to test True or False.
 
 //What is comparision operators?
 //In javascript comparision operators are used to determine the equality or differnce between the variables or values and also comparision operators are used in conditional statements to compare values.
@@ -144,6 +144,115 @@ console.log(multiply);
 // > Less than or eqaul to
 
 // ? Ternary Operator
+
+//lets take an example:-
+
+let firstNum  = 1;
+let secondNum = 2;
+let resultNum1 = firstNum == secondNum;
+console.log(resultNum1); //The answer is false ,because 1 is not equal to 2.if the operands are equal.
+
+let thirdNum   =  3;
+let fourthNum  =  3;
+let resultNum2 =  thirdNum === fourthNum;
+console.log(resultNum2); //The answer is false, because 3 is not equal to 4.if the operands are equal and same type.
+
+let fifthNum = "5";
+let sixthNum = 6;
+let resultNum3  = fifthNum != sixthNum;
+console.log(resultNum3); //The answer is True,because 5 is not equal to 6.
+
+let seventhNum = 7;
+let eigthNum = 8;
+let resultNum4 = seventhNum !== eigthNum;
+console.log(resultNum4); //The answer is True,because 7 is not equal to 8.if the operands are not equal and same type.
+
+
+let ninthNum = 9;
+let tenthNum = 10;
+let resultNum5 = tenthNum > ninthNum;
+console.log(resultNum5); //The answer is true , because 10 is greater than 9. if the left operand is greater than the right operand.
+
+
+let resultNum6 = ninthNum < tenthNum;
+console.log(resultNum6); //The answer is true here , because 9 is less than 10. if the left is operand is less than the right operand.
+
+
+
+let eleventhNum = 11;
+let twelvethNum = 11;
+let resultNum7 = eleventhNum >= twelvethNum;
+console.log(resultNum7); //The answer is true here , because  11 is not greater but equal to 11,if the left operand is greater than or equal to the right operand.
+
+
+let thirteenNum = 13;
+let fourteenNum = 14;
+let resultNum8 = thirteenNum <= fourteenNum;
+console.log(resultNum8); //The answer is true here, because 13 is less than 14 but no equal to 14, if the left operand is less than or equal to the right operand.
+
+
+
+//What are logical operators?
+//In javascript logical operators are used to determine the logic between variables or values.
+
+// && LOgical   And
+
+// || Logical   Or
+
+// ! Logical    Not
+
+//Lets take an example below :-
+x = 5;  y = 6;  //If you assign a value to a variable that has not been declared,it will automatically become a GLOBAL variable.#
+
+// && Logical And  
+(x < 10 && y > 1);
+//Now here the value of x is 5 and y is 6 and obviously the logic and 5 is less than 10 and  6 is greater than 1 True.
+
+// || Logical   or
+(x == 6 || y == 7);
+//Now here the value of x is 5 and the value of y is 6 ,obviously the logic or  an operator is 5 is equal to 6 and 6 is equal to 7 which is FALSE right.
+ 
+
+// ! Logical Not
+!(x==y);
+//Now here the value of x is 5 and the value of y is 6 , and obviously by using logical not operator their values are not equal hence first they are not logic based automatically so it will become a TRUE.
+
+// && Logical And (Example):-
+//Let's say you're tasked with coming up with some code that will check if the currentTime variable is between 9 a.m. and 5 p.m. The code needs to console.log true if currentTime > 9 and if currentTime < 18
+
+let currentTime = 10;
+console.log(currentTime > 9 && currentTime < 18);
+
+//so how does this code work?
+// On the first line I set the currentTime variable and  i assign the value of 10 to it.
+// On the second line I console the two comparisions currentTime > 9 and currentTime < 18 
+// And i also used &&(Aperands) logical operator to comparisons the values
+//Effectively my code is interpretted as the following:-
+
+console.log(10 > 9 && 10 < 18);
+// so here the value of currentTime is 10 and here 10 is obviously greater than 9 and 10 is less than 18
+// the result is True , the comparison of 10 > 9 is : true and the comnparison of 10 < 18 is : true.
+// console.log(true && true );
+//Both values are true
+//This is my code works line by line
+
+//So here the behavior of the logical && operator is it returns a single boolean value either true or false.
+// It returns True if the both values on its right and its left are evaluated to true.
+// It returns false in all the other instances.
+
+//In other words
+// console.log( true && true );  True
+//console.log ( true && false);  False
+// console..log ( false && true); False
+// console.log (false && false ); False
+
+
+
+
+
+
+
+
 
 
 
@@ -175,32 +284,6 @@ let autumn = "What a lovely day, ";
 autumn += "Feeling great";  //autumn = autumn + "Feeling great";
 console.log(autumn);  //What a lovely day, Feeling great
     
-
-//What are logical operators?
-//In javascript logical operators are used to determine the logic between variables or values.
-
-// && LOgical and
-
-// || Logical   or
-
-// ! Logical not
-
-//Lets take an example below :-
- x = 5;  y = 6;  //If you assign a value to a variable that has not been declared,it will automatically become a GLOBAL variable.#
-
- // && Logical And  
- (x < 10 && y > 1);
- //Now here the value of x is 5 and y is 6 and obviously the logic and  is 5 less than 10 and  6 is greater than 1 True.
-
- // || Logical   or
- (x == 6 || y == 7);
- //Now here the value of x is 5 and the value of y is 6 ,obviously the logic or  an operator is 5 is equal to 6 and 6 is equal to 7 which is FALSE right.
-  
-
-// ! Logical Not
-!(x==y);
-//Now here the value of x is 5 and the value of y is 6 , and obviously by using logical not operator their values are not equal hence first they are not logic based automatically so it will become a TRUE.
-
 
 
 

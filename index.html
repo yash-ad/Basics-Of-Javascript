@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  
 
     
   </head>
@@ -207,8 +208,12 @@
 <p>Javascript Objects are written with {Curly Braces} and with the properties Name:value pairs and are seperated by commas</p>
 
 
+
+</div>
+
+<div class="Type-Conversion">
 <h1>Type conversion</h1>
-<h3>Whats is javascript Type-Conversion?</h3>
+<h2>Whats is javascript Type-Conversion?</h2>
 <p>Javascript variable can be converted to a new variable and another data type.</p>
 <p>Number(),String(),Boolean()
   <ul>
@@ -216,13 +221,26 @@
   </li>
   <li>String()Takes null and undefined and convert them into string </li>
 <li>In javascript null,undefined,Nan,0 converts to false. and all other values give true.</li>
-
-
-
   </ul>
 </p>
+
+<h2>Converting Strings To Numbers</h2>
+<p>1.The global method Number() converts a variable(or a value) into a number.
+2.Empty string like "" converts to 0.
+3.Non-Numeric strings like "String" conerts to Nan(Not a number).
+4.A numeric string like "3.14" it converts to a number like 3.14
+
+</p>
+
+<h3>The unary [+] Operator </h3>
+<p>The unary + operator can be used to convert a variable to a number.
+  lets take an example:- 
+  let y = "31";
+  let z = + y;
+console.log(z); //The answer is 31 that converted string to a number because of unary + Operator
+</p>
 <div class="Table-Type-Conversion">
-  <table>
+  <table class="Table-Layout">
     <tbody>
      <tr>
       <th>Original Value</th>
@@ -365,7 +383,20 @@
 
 
 
-    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
