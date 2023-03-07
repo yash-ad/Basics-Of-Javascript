@@ -217,6 +217,15 @@ x = 5;  y = 6;  //If you assign a value to a variable that has not been declared
 !(x==y);
 //Now here the value of x is 5 and the value of y is 6 , and obviously by using logical not operator their values are not equal hence first they are not logic based automatically so it will become a TRUE.
 
+
+
+/// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 // && Logical And (Example):-
 //Let's say you're tasked with coming up with some code that will check if the currentTime variable is between 9 a.m. and 5 p.m. The code needs to console.log true if currentTime > 9 and if currentTime < 18
 
@@ -231,7 +240,7 @@ console.log(currentTime > 9 && currentTime < 18);
 
 console.log(10 > 9 && 10 < 18);
 // so here the value of currentTime is 10 and here 10 is obviously greater than 9 and 10 is less than 18
-// the result is True , the comparison of 10 > 9 is : true and the comnparison of 10 < 18 is : true.
+// the result is True , the comparison of 10 > 9 is : true and the comparison of 10 < 18 is : true.
 // console.log(true && true );
 //Both values are true
 //This is my code works line by line
@@ -245,6 +254,73 @@ console.log(10 > 9 && 10 < 18);
 //console.log ( true && false);  False
 // console..log ( false && true); False
 // console.log (false && false ); False
+
+
+// || Logical   or (Example)
+
+// It is used when atleast one of the given comparison evaluates to true.
+//Consider the following task: You need to write a program in JavaScript which will return true if the value of the currentTime variable is not between 9 and 17. Put differently, your code needs to console.log true if the value of the variable currentTime is either less than 9 or greater than 17.
+
+
+let current_Time = 18;
+console.log(current_Time < 9 || current_Time > 17);
+//So how does this code work
+//On the first line i set current_Time and i assign a value 18 to it.
+//On the second line in console.log i compare the two values current_Time < 9 current_Time > 17.
+// and i also use logical OR operator to compare the values
+//Effectively my code is working and interpretting.
+console.log(18 < 9 || 18 > 17);
+
+// So as the following comparison 18 is less than 9 which is false and using OR || operator 18 is graeter than 17 which is true.
+//console.log(False || True);
+//So as a behavior of logical OR operator it evaluates to True when one of the given comparison is true.
+//That means in simple words:-
+//The logical OR operator are always evaluates to true , except when both sides evaluates to false.
+
+// console.log(True || False) //True
+// console.log(False|| True)  //True
+// console.log(True || True)  //True
+// console.log(False || False) //False
+
+//Operator Precedence and Associavity:-
+//1.Left to Right associavity
+//2.Right it left associavity
+let multiplyFirst = 2 * 3 + 6;  // Here multiplication done first. 2 * 3 = 6 6 + 6 = 12;
+let   result_Get = multiplyFirst;
+    console.log(result_Get); // 12
+
+
+let coercionType = 1 + "2" ;   // String type 12.
+console.log(typeof (coercionType)); //Note that the value of 1 is of the number data type, and the value of "2" is of the string data type, and so JavaScript will coerce the number 1 to a string of "1", and then concatenate it with the string of "2", so the result is a string of "12".
+
+let jsQuiz = 5 > 4 > 3;
+
+let givenResult = jsQuiz;
+console.log(givenResult); //False
+
+// So here in this given jsQuiz 5 is greater than 4 which is True and True is greater than 3 which is evaluated to false.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
