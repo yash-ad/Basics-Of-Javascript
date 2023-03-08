@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  
 
     
   </head>
@@ -208,7 +209,194 @@
 
 
 
-    </div>
+</div>
+
+<div class="Type-Conversion">
+<h1>Type conversion</h1>
+<h2>Whats is javascript Type-Conversion?</h2>
+<p>Javascript variable can be converted to a new variable and another data type.</p>
+<p>Number(),String(),Boolean()
+  <ul>
+  <li>Javascript consdiers 0 as False and all non-zero as True , and if True is converted to a number the result is always 1.
+  </li>
+  <li>String()Takes null and undefined and convert them into string </li>
+<li>In javascript null,undefined,Nan,0 converts to false. and all other values give true.</li>
+  </ul>
+</p>
+
+<h2>Converting Strings To Numbers</h2>
+<p>1.The global method Number() converts a variable(or a value) into a number.
+2.Empty string like "" converts to 0.
+3.Non-Numeric strings like "String" conerts to Nan(Not a number).
+4.A numeric string like "3.14" it converts to a number like 3.14
+
+</p>
+
+<h3>The unary [+] Operator </h3>
+<p>The unary + operator can be used to convert a variable to a number.
+  lets take an example:- 
+  let y = "31";
+  let z = + y;
+console.log(z); //The answer is 31 that converted string to a number because of unary + Operator
+</p>
+<div class="Table-Type-Conversion">
+  <table class="Table-Layout">
+    <tbody>
+     <tr>
+      <th>Original Value</th>
+      <th>Converted to Number</th>
+      <th>Converted to String</th>
+      <th>Converted to Boolean</th>
+     </tr>
+     <tr>
+      <td>false</td>
+      <td>0</td>
+      <td>"false"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>True</td>
+      <td>1</td>
+      <td>"True"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>"0"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>1</td>
+     <td>1</td>
+     <td>"1"</td>
+     <td>True</td>
+    </tr>
+     <tr>
+      <td>"0"</td>
+      <td>0</td>
+      <td>"0"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"000"</td>
+      <td>0</td>
+      <td>"000"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"1"</td>
+      <td>1</td>
+      <td>"1"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>"NaN"</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>Infinity</td>
+      <td>Infinity</td>
+      <td>"Infinity"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>""</td>
+      <td>0</td>
+      <td>""</td>
+      <td>false</td>
+     </tr>
+     <tr>
+      <td>"20"</td>
+      <td>20</td>
+      <td>"20"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>"twenty"</td>
+      <td>NaN</td>
+      <td>"twenty"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[]</td>
+      <td>0</td>
+      <td>""</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[20]</td>
+      <td>20</td>
+      <td>"20"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>[20,30]</td>
+      <td>NaN</td>
+      <td>"20,30"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>["twenty"</td>
+      <td>NaN</td>
+      <td>"twenty"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>function(){}</td>
+      <td>NaN</td>
+      <td>"function(){}"</td>
+      <td>True</td>
+     </tr>
+     <tr>
+      <td>null</td>
+     <td>0</td>
+     <td>"null"</td>
+     <td>false</td>
+    </tr>
+     <tr>
+      <td>undefined</td>
+      <td>NaN</td>
+      <td>"undefined"</td>
+      <td>false</td>
+     </tr>
+     
+         </tbody>
+       </table>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -262,6 +450,6 @@
 
 
 
-    <script src="Datatypes.js"></script>
+    <script src="Type conversion.js"></script>
 </body>
 </html>
