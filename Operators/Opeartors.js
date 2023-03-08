@@ -251,7 +251,7 @@ console.log(10 > 9 && 10 < 18);
 
 //In other words
 // console.log( true && true );  True
-//console.log ( true && false);  False
+// console.log ( true && false);  False
 // console..log ( false && true); False
 // console.log (false && false ); False
 
@@ -302,10 +302,49 @@ console.log(givenResult); //False
 
 
 
+//Examples 
+//Task 1: Using the logical && operator
+//You are coding an RPG game, where each character has certain skill levels based on the value saved in their score.
+
+//Create a variable named  score and set it to  8
+
+//Use console.log() that includes the string "Mid-level skills:" and compares the score variable to above 0 and below 10 using the && operator
+
+//The expected output in the console should be: "Mid-level skills: true"
+
+
+let score = 8;
+console.log("Mid-Level skills :",score > 0 && score < 10); // bOth eva;uates to True;
 
 
 
+/*Task 2: Using the logical || operator
+Imagine you are coding a video game. Currently, you’re about to code some snippets related to the game over condition.
 
+You need to code a new variable named timeRemaining and set it to 0. You also need to code a new variable named energy and set it to 10.
+
+Next, you should write a piece of code that could be used to determine if the game is over, based on whether either the value of the timeRemaining variable is 0 or the value of the energy variable is 0.
+
+Complete the task using the following steps:
+
+Declare the variable timeRemaining, and assign the value of 0 to it.
+
+Declare the variable energy, and assign the value of 10 to it.
+
+Console log the following parameters: "Game over: ", and timeRemaining == 0 || energy == 0
+
+Note that the expected output in the console should be: "Game over: true" */
+ let timeRemaining = 0;
+ let energy = 10;
+ console.log("Game-Over: ",timeRemaining === 0 || energy ===  10); //The value is True. 
+
+
+ /*Task 4: Add numbers using the + operator
+Console log the result of adding two numbers, 5 and 10, using the + operator.
+
+Note: This task should be completed on a single line of code. The output in the console should be 15.*/
+
+console.log(10+5);
 
 
 
